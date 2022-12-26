@@ -1,0 +1,41 @@
+//container ======================
+.container {
+  max-width: 1440px;
+  padding: 27px 120px;
+  margin: auto;
+}
+//header ======================
+.header {
+  justify-content: space-between;
+  padding-right: 280px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @include e(link) {
+    padding-left: 60px;
+    padding-bottom: 0px;
+  }
+}
+.nav__link_m {
+  padding-left: 240px;
+}
+//main ================
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 65px;
+  align-items: center;
+  @include e(h1) {
+    margin: 0;
+    font-size: 1.375rem;
+    font-weight: bold;
+  }
+  @include e(div) {
+    background: url(../../../i/img.jpg) no-repeat;
+    height: 510px;
+    width: 650px;
+  }
+}

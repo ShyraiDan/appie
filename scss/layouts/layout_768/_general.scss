@@ -1,0 +1,139 @@
+.part1 {
+  max-width: 720px;
+  @include e(title) {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+.header {
+  @include e(login-btn) {
+    padding: 0 30px;
+  }
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container1 {
+  max-width: 690px;
+}
+.container2 {
+  max-width: 550px;
+  padding: 90px 70px;
+  @include e(h3) {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  @include e(img) {
+    display: initial;
+  }
+}
+.container3 {
+  max-width: 690px;
+  @include e(img) {
+    width: 100%;
+  }
+}
+.container4 {
+  max-width: 690px;
+  @include e(h3) {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+.container5 {
+  max-width: 690px;
+  @include e(img) {
+    width: 100%;
+  }
+}
+.container6 {
+  max-width: 690px;
+  @include e(h3) {
+    font-size: 36px;
+    line-height: 46px;
+    width: 590px;
+  }
+}
+.container7 {
+  max-width: 690px;
+}
+.part10 {
+  max-width: 690px;
+}
+.container8-img {
+  @include m(left) {
+    text-align: right;
+  }
+}
+.part11 {
+  max-width: 690px;
+}
+.part12 {
+  max-width: 720px;
+}
+.posts {
+  padding: 35px;
+}
+.container13 {
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.container13-inner {
+  margin-bottom: 0;
+}
+.container-footer {
+  @include e(width) {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+
+  @include e(inner) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.container-footer {
+  @include e(p) {
+    text-align: left;
+  }
+  @include e(left) {
+  }
+  @include e(right-center) {
+    text-align: left;
+  }
+  @include e(left-center) {
+    text-align: left;
+  }
+  @include e(right) {
+    text-align: left;
+  }
+  @include e(left-inner) {
+    padding-right: 70px;
+    padding-left: 0;
+  }
+}
+.link-container {
+  @include m(center) {
+    justify-content: left;
+  }
+  @include m(mid) {
+    justify-content: center;
+  }
+}
+.social{
+  justify-content: left;
+}
+.social-list {
+  display: block;
+}
+.slider {
+  max-width: 720px;
+  @include e(img) {
+    width: 210px;
+  }
+}
